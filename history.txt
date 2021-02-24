@@ -1,8 +1,8 @@
 # права суперпользователя
 sudo su
 # обновляем репы и устанавливаем софт
-apt update && apt install postgresql postgresql-contrib  pg-activity -y 
-# клонируем базу
+apt update && apt install postgresql postgresql-contrib pg-activity -y 
+# клонируем базу с гита
 git clone https://github.com/pthom/northwind_psql.git
 # меняем юзера
 su postgres
